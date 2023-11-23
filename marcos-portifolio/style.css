@@ -1,0 +1,210 @@
+/* Estilos para o header */
+.header {
+  background-color: #fff;
+  color: #000;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.header-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.header h1 {
+  margin: 5px 0;
+}
+
+.header p {
+  margin-bottom: 20px;
+}
+
+/* Estilos para a navegação do header */
+/* Estilo para os links do menu no header */
+/* Estilos para os botões do menu de navegação no header */
+.header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header nav ul li {
+  display: inline;
+  margin-right: 20px; /* Espaçamento entre os botões */
+}
+
+.header nav ul li:last-child {
+  margin-right: 0; /* Remove o espaçamento do último botão */
+}
+
+.header nav ul li a {
+  text-decoration: none;
+  padding: 8px 16px; /* Espaçamento interno dos botões */
+  border: 2px solid #333; /* Borda sólida */
+  border-radius: 5px; /* Cantos arredondados */
+  color: #333; /* Cor do texto */
+  transition: background-color 0.3s, color 0.3s; /* Efeito de transição */
+}
+
+.header nav ul li a:hover {
+  background-color: #333; /* Cor de fundo ao passar o mouse */
+  color: #fff; /* Cor do texto ao passar o mouse */
+}
+
+/* Estilos para a seção de projetos */
+.projects-section {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.projects-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.project {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.project p {
+  margin-bottom: 10px;
+}
+
+.project a {
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.project a:hover {
+  background-color: #ff9900;
+}
+
+/* Estilos para a seção de habilidades */
+.skills-section {
+  padding: 50px 0;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.skills-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill h3 {
+  margin-top: 0;
+}
+
+.skill-bar {
+  background-color: #ddd;
+  height: 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.skill-level {
+  background-color: #ff9900;
+  height: 100%;
+  border-radius: 5px;
+  text-align: right;
+  padding: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+.skill-level-html {
+  width: 100%;
+}
+
+.skill-level-css {
+  width: 100%;
+}
+
+.skill-level-js {
+  width: 80%;
+}
+
+/* Adicione mais estilos para outras habilidades conforme necessário */
+
+/* Estilos para as seções de experiência e educação */
+.experience-section,
+.education-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.experience-container,
+.education-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.experience-item,
+.education-item {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience-item h3,
+.education-item h3 {
+  margin-top: 0;
+}
+
+/* Adicione mais estilos conforme necessário */
+/* Estilos para a seção de contato */
+.contact-section {
+  padding: 50px 0;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.contact-info a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
